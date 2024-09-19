@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kodchasan", sans-serif;
+  background-color: #EFEEF3;
+  color: #000;
+  height: 200vh;
+}
+
+.containerLogo {
+  margin-left: 1vh;
+}
+
+header {
+  display: flex;
+}
+header ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  width: 86vw;
+  height: 8vh;
+  justify-content: space-around;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+header li {
+  text-transform: uppercase;
+}
+header a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
